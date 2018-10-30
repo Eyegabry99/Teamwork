@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../../FONT_worksans/Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/listafile.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Ricerca</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../bacheca/bacheca.html">Bacheca</a></li>
+            <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            <li><a class="active" href="../listafile/listafile.html">Lista file</a></li>
+            <li><a href="../profilo/profilo.html">Profilo</a></li>
+        </ul>
+    </nav>
+
+    <div style="margin-left:2%; margin-top:6%; float:left">
+        <input type="text" name="ricerca" placeholder="Nome file/link">
+        <label for="ricerca" style="color:white">Ricerca</label>
+    </div>
+    <div>
+        <h1 id="titolo">Ricerca</h1>
+    </div>
+
+    <article>
+        <img class="tipoelem" src="../../imm/file icon.png" width=50px height=50px style="float:left">
+        <div>
+            <h3>Nome file</h3>
+            Caricato il 11/10/2018<br>
+            Da: <b>Collega 1</b>
+        </div>
+        <div class="dettvisual">
+            <button type="button" onclick="openPageDet()">Dettagli</button>
+            <a href="https://drive.google.com/file/d/1VbSu3ufXjVUPTGCAA5tpZ1BsRIj7ykXR/view?usp=sharing" target="_blank"><i
+                    class="fas fa-eye"> Visualizza</i></a>
+        </div>
+        <div>
+            <a class="paddingL100" href="dettagli.html"><img src="../../imm/like icon.png" width=50px height=50px></a>
+        </div>
+    </article>
+</body>
+
+</html>
