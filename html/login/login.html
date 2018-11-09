@@ -3,6 +3,7 @@
 
 <head>
     <link href="../../FONT_worksans/Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../css/log-reg.css">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <title>Login</title>
@@ -10,17 +11,35 @@
 
 <body>
     <div class="container">
-        <h1>Teamwork App</h1>
-        <img src="../img/logoapp.gif">
-        <div class="login">
-            <form method="POST" action="../bacheca/Bacheca.html">
-                <span>LOGIN </span><br><br>
-                <label>Username:<br><input type="text" name="nome"></label><br><br>
-                <label>Password:<br><input type="password" name="password"></label><br><br>
-                <a href="Registrazione.html">Desideri registrarti?</a><br><br>
-                <a href="RecuperoConEmail.html">Password dimenticata?</a><br><br>
-                <button type="submit">Accedi</button>
-            </form>
+        <br>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-3 mb-5">
+                <h1>Teamwork App</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-6 col-lg-6  mt-5">
+                <form class="card border-radius mt-2 shadow">
+                    <div class="form-group">
+                        <label class="font-weight-bold" for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold" for="password">Password:</label>
+                        <input type="password" class="form-control " id="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <a class="d-block mb-2 text-center" href="Registrazione.html"> Desideri registrarti?</a>
+
+                        <a class="d-block mb-2 text-center" href="RecuperoConEmail.html"> Hai dimenticato la
+                            password?</a>
+                    </div>
+                    <button class="col- m-auto" type="submit">Accedi</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <img class="img ml-5 " src="../img/logoapp.gif">
+            </div>
         </div>
     </div>
 </body>

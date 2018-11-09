@@ -1,23 +1,10 @@
-/* file html */
-html {
-    height: 100%;
-    width: 100%;
-    font-family: 'Work Sans';
-    margin-left: 0%;
-}
-
 /* body */
 body {
     /* For browsers that do not support gradients */
-    background-image: linear-gradient(rgb(54, 14, 199), rgb(0, 204, 255));
+    background-image: linear-gradient(rgb(54, 14, 199), rgb(0, 195, 221));
     background-repeat: no-repeat;
     background-attachment: initial;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    /* Standard syntax (must be last) */
 }
 
 /* navbar */
@@ -70,35 +57,14 @@ li a:hover {
     background-color: rgb(0, 225, 255);
 }
 
-.container {
-    padding: 5%;
-}
 
-.titoloebottoni {
-    width: 100%;
-}
 
-.titolo {
-    font-size: 5em;
-    text-align: left;
-    color: white;
-    margin: 0;
-    font-weight: 900;
-    padding: 0;
-    width: 80%;
-    display: inline-block;
-}
 
-.bottonesinistro {
-    float: left;
-    width: 20%;
-}
 
-.bottonedestro {
-    width: 20%;
-    float: right;
 
-}
+
+
+
 
 .post {
     background-color: whitesmoke;
@@ -125,9 +91,9 @@ img {
 }
 
 .descrizione {
-    width: 85%;
-    display: inline-block;
     left: 1%;
+    width: 85%;
+    float: right;
 }
 
 .bottoncini:link,
@@ -149,22 +115,12 @@ img {
     background-color: rgb(92, 92, 92);
 }
 
-textarea {
-    width: 91.5%;
-    height: 50%;
-    font-size: 2.5em;
-    margin-left: 4%;
-}
 
 
-form label {
-    margin-left: 8%;
-    font-weight: bold;
-    color: black;
-    font-size: 2em;
-    margin-left: 3%;
-}
-form>button{
+
+
+
+form>button {
     background-color: #8d8d8d;
     color: white;
     padding: 14px 25px;
@@ -174,23 +130,21 @@ form>button{
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1.3em;
-    font-weight: bold; 
-    margin-left:0.5%;
+    font-weight: bold;
+    margin-left: 0.5%;
 }
-form>button:hover{
+
+form>button:hover {
     background-color: rgb(92, 92, 92);
     cursor: pointer;
 }
 
-input[type="text"]{
+input[type="text"] {
     font-size: 1em;
 }
-.containerform {
-    background-color:whitesmoke; 
-    padding-bottom: 3%; 
-    padding-top:1%; 
-    border-radius: 10px;
-} 
+
+
+
 div+form>textarea {
     width: 91.5%;
     height: 50%;
@@ -198,3 +152,10 @@ div+form>textarea {
     margin-left: 0.3%;
 }
 
+/* immagine persona per i commenti */
+.imgpersonacomm {
+    width: 9%;
+    float: left;
+    border-radius: 3%;
+    text-align: center;
+}

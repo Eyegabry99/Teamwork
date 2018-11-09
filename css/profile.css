@@ -259,10 +259,9 @@ div>label {
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 100px;
     perspective: 1000px;
     float: left;
-    margin-top: 30px;
     border-radius: 30px;
   }
   
@@ -306,6 +305,6 @@ div>label {
 
 .immaginefiga {
     border-radius: 30px;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
