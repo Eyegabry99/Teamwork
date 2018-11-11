@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../../FONT_worksans/Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/profile.css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Modifica profilo</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../bacheca/bacheca.html">Bacheca</a></li>
+            <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            <li><a href="../listafile/listafile.html">Lista file</a></li>
+            <li><a class="active" href="../profilo/profilo.html">Profilo</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="titoloebottoni">
+            <div class="bottonesinistro">
+                <a class="bottoncini" href="profilo.html">Torna indietro</a>
+            </div>
+            <div class="titolo">
+                Modifica profilo
+            </div>
+        </div>
+
+        <div class="riga">
+            <div class="mainimg">
+                <img class="fotoprofilo" src="../../imm/avatar-viola.png">
+                <div>
+                    <form action="profilo.html">
+                        <label class="floatL">
+                            Nome:
+                            <input type="text" class="nome">
+                        </label>
+                        <label class="floatR">
+                            Cognome:
+                            <input type="text">
+                        </label>
+                        <label class="floatL">Data di nascita:
+                            <input type="date">
+                        </label>
+                        <label class="floatR">
+                            Email:
+                            <input type="email">
+                        </label>
+                        <label class="floatR">
+                            Ruolo:
+                            <input type="text" placeholder="modifica il ruolo aziendale">
+                        </label>
+                        <label class="floatL">
+                            Password:
+                            <input type="password" placeholder="Inserisci nuova password">
+                        </label>
+                </div>
+                <button type="submit">Salva </button>
+                </form>
+                <div>
+                    <label for="file-upload" class="fileupload">
+                        Scegli file
+                    </label>
+                    <input id="file-upload" type="file" />
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
